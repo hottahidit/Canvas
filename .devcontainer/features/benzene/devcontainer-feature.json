@@ -1,0 +1,17 @@
+{
+  "id": "benzene",
+  "version": "0.1.0",
+  "name": "Benzene prompt (opt-in)",
+  "description": "John's Benzene zsh prompt (hottahidit/axle), installed at a pinned commit. Off unless SHELLINATOR_THEME=benzene.",
+  "options": {
+    "axleRef": {
+      "type": "string",
+      "default": "f99ab5163c76c8709b839d598f5638b0802eb9fd",
+      "description": "Full commit SHA of hottahidit/axle to install (reviewed by Nikun before it leaves canvas)"
+    }
+  },
+  "installsAfter": [
+    "ghcr.io/nikunh/003-zsh-setup-vishkrm/003-zsh-setup",
+    "./features/003-zsh-setup"
+  ]
+}
